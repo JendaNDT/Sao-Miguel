@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-accent: #2d6a4f;
+  --color-accent-hover: #245a42;
+  --color-accent-soft: #e8f3ec;
+  --color-accent-contrast: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f4f5;
+  --color-surface-3: #eef0f2;
+}
+
+body {
+  background-color: #fafafa;
+  color: #111827;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0b0f0d;
+    color: #f3f4f6;
+  }
+}
+
+.sm-marker {
+  background: transparent;
+  border: none;
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 15s infinite alternate ease-in-out;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 5s;
+}

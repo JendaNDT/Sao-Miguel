@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#52b788"/>
+      <stop offset="1" stop-color="#1b4332"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#g)"/>
+  <!-- Island silhouette -->
+  <path d="M64 340 Q 120 260 200 280 T 340 260 Q 420 240 460 320 L 460 420 L 64 420 Z" fill="#1b4332" opacity="0.55"/>
+  <!-- Sun -->
+  <circle cx="140" cy="150" r="52" fill="#ffd166" opacity="0.95"/>
+  <!-- Water waves -->
+  <path d="M50 440 Q 120 420 200 440 T 370 440 T 470 440" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M50 470 Q 120 450 200 470 T 370 470 T 470 470" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.55"/>
+  <!-- Mountain peak -->
+  <path d="M220 320 L 280 210 L 340 320 Z" fill="#081c15"/>
+  <path d="M250 270 L 280 210 L 310 270 L 290 275 L 280 255 L 270 275 Z" fill="#ffffff" opacity="0.85"/>
+</svg>
